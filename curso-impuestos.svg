@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-labelledby="title desc">
+<title id="title">MZ Formación — Impuestos en la práctica</title><desc id="desc">Portada editorial en tonos taupe y tierra con una ilustración de documentos e impuestos.</desc>
+<rect width="720" height="560" fill="#bcb8ad"/>
+<path d="M38 46H682M38 512H682" stroke="#403b34" stroke-width="1"/>
+<text x="40" y="31" fill="#222220" font-family="Arial,sans-serif" font-size="13" letter-spacing="3">MZ ACCOUNTING FIRM</text>
+<text x="682" y="31" fill="#403b34" font-family="Arial,sans-serif" font-size="11" text-anchor="end" letter-spacing="2">FORMACIÓN</text>
+<text x="42" y="105" fill="#403b34" font-family="Arial,sans-serif" font-size="12" letter-spacing="3">IMPACTO FISCAL EN LA EMPRESA</text>
+<text x="38" y="179" fill="#222220" font-family="Georgia,serif" font-size="62">Impuestos</text>
+<text x="38" y="247" fill="#222220" font-family="Georgia,serif" font-size="62">en la práctica.</text>
+<text x="42" y="294" fill="#403b34" font-family="Arial,sans-serif" font-size="15" letter-spacing="1">Comprender cada operación.</text>
+<g fill="none" stroke="#403b34" stroke-width="1.5">
+<path d="M402 337H621V480H402Z"/>
+<path d="M419 325H638V467M436 313H655V454"/>
+<path d="M423 361H508M423 379H555M423 398H535M423 444H488"/>
+<circle cx="612" cy="435" r="44" fill="#ebeae7"/>
+<path d="M594 456L630 414"/>
+<circle cx="599" cy="420" r="7"/><circle cx="625" cy="450" r="7"/>
+</g>
+<text x="42" y="474" fill="#403b34" font-family="Georgia,serif" font-size="86">02</text>
+<text x="42" y="540" fill="#222220" font-family="Arial,sans-serif" font-size="12" letter-spacing="2">CAPACITACIÓN A MEDIDA</text>
+<path d="M646 537H676M665 526L676 537L665 548" fill="none" stroke="#222220" stroke-width="1.5"/>
+</svg>

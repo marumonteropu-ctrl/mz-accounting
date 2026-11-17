@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-labelledby="title desc">
+<title id="title">MZ Formación — Contabilidad operativa</title><desc id="desc">Portada editorial en tonos café y arena, con una ilustración de registros contables.</desc>
+<rect width="720" height="560" fill="#403b34"/>
+<path d="M38 46H682M38 512H682" stroke="#b0a695" stroke-width="1"/>
+<text x="40" y="31" fill="#ebeae7" font-family="Arial,sans-serif" font-size="13" letter-spacing="3">MZ ACCOUNTING FIRM</text>
+<text x="682" y="31" fill="#bcb8ad" font-family="Arial,sans-serif" font-size="11" text-anchor="end" letter-spacing="2">FORMACIÓN</text>
+<text x="42" y="105" fill="#bcb8ad" font-family="Arial,sans-serif" font-size="12" letter-spacing="3">CONTABILIDAD PARA EQUIPOS</text>
+<text x="38" y="179" fill="#ebeae7" font-family="Georgia,serif" font-size="62">Contabilidad</text>
+<text x="38" y="247" fill="#ebeae7" font-family="Georgia,serif" font-size="62">operativa.</text>
+<text x="42" y="294" fill="#bcb8ad" font-family="Arial,sans-serif" font-size="15" letter-spacing="1">De la operación al registro.</text>
+<g transform="translate(330 325)" fill="none" stroke="#b0a695" stroke-width="1.5">
+<rect width="350" height="150"/>
+<path d="M0 36H350M0 74H350M0 112H350M195 0V150M272 0V150"/>
+<path d="M18 18H105M18 55H143M18 93H122M18 130H150M214 55H250M288 93H331M214 130H250" stroke="#ebeae7"/>
+<path d="M214 14H250M214 20H250M288 14H331M288 20H331"/>
+</g>
+<text x="42" y="474" fill="#bcb8ad" font-family="Georgia,serif" font-size="86">01</text>
+<text x="42" y="540" fill="#ebeae7" font-family="Arial,sans-serif" font-size="12" letter-spacing="2">CAPACITACIÓN A MEDIDA</text>
+<path d="M646 537H676M665 526L676 537L665 548" fill="none" stroke="#ebeae7" stroke-width="1.5"/>
+</svg>
