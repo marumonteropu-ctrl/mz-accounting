@@ -315,3 +315,12 @@ main .eyebrow{margin-bottom:0;font-family:var(--ac-sans)}
 .precio-proximo{font-family:var(--ac-serif);font-style:italic;color:var(--rosa-texto)}
 .ruta .card-proximo{flex-grow:0;flex-basis:calc((100% - 32px)/3)}
 @media(max-width:720px){.pestanas{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}.pestana{padding:10px}.pestana-titulo{font-size:14px;line-height:1.25}.ruta .card-proximo{flex-basis:80%}}
+/* Guías de regalo */
+.regalo{display:flex;align-items:center;gap:20px;background:var(--rosa-suave);border-radius:14px;padding:16px 22px;margin-bottom:22px}
+.regalo-tapas{display:flex;flex:none}
+.regalo-tapas img{width:46px;border-radius:2px;box-shadow:0 6px 14px rgba(51,47,45,.18)}
+.regalo-tapas img+img{margin-left:-14px;transform:rotate(6deg)}
+.regalo p{font-size:14px;line-height:1.6;color:var(--texto)}
+.regalo-etiqueta{display:inline-block;background:var(--salvia);color:#fff;font-size:10px;letter-spacing:.1em;text-transform:uppercase;padding:3px 9px;border-radius:999px;margin-right:6px;vertical-align:1px}
+.regalo-linea{font-size:13px;color:var(--texto);line-height:1.6}
+@media(max-width:600px){.regalo{align-items:flex-start;padding:14px 16px}.regalo-tapas img{width:38px}}
