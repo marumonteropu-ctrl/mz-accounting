@@ -324,3 +324,18 @@ main .eyebrow{margin-bottom:0;font-family:var(--ac-sans)}
 .regalo-etiqueta{display:inline-block;background:var(--salvia);color:#fff;font-size:10px;letter-spacing:.1em;text-transform:uppercase;padding:3px 9px;border-radius:999px;margin-right:6px;vertical-align:1px}
 .regalo-linea{font-size:13px;color:var(--texto);line-height:1.6}
 @media(max-width:600px){.regalo{align-items:flex-start;padding:14px 16px}.regalo-tapas img{width:38px}}
+/* Packs: dos opciones */
+.pack{display:block}
+.pack-cab{margin-bottom:28px}
+.pack-cab h2{margin-top:10px}
+.pack-opciones{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.pack-opcion{position:relative;display:flex;flex-direction:column;gap:14px;background:#3D3836;border:1px solid #4A4542;border-radius:16px;padding:28px}
+.pack-opcion.destacado{background:#463F3B;border-color:var(--rosa,#B79E97);box-shadow:0 0 0 1px var(--rosa,#B79E97) inset}
+.pack-sello{position:absolute;top:-12px;right:24px;background:var(--rosa,#B79E97);color:#fff;font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding:5px 12px;border-radius:999px}
+.pack-opcion p{font-size:14px;line-height:1.65;color:#D8C7C1}
+.pack-tapas{position:relative;height:118px;margin-bottom:6px}
+.pack-tapas img{position:absolute;bottom:0;left:calc(var(--i) * 46px);width:76px;border-radius:2px;box-shadow:0 8px 18px rgba(0,0,0,.35);transform:rotate(calc((var(--i) - 2) * 4deg))}
+.pack-opcion .card-botones .btn{flex:1 1 auto}
+#en-vivo .vivo{flex-basis:320px}
+#en-vivo .vivo h3{font-size:26px}
+@media(max-width:800px){.pack-opciones{grid-template-columns:1fr}.pack-opcion{padding:22px}.pack-tapas{height:100px}.pack-tapas img{width:64px;left:calc(var(--i) * 38px)}}
