@@ -1,0 +1,11 @@
+/* Movimiento: las fotos entran como una cortina y las tarjetas suben al aparecer */
+.mov [data-cortina]{clip-path:inset(100% 0 0 0);scale:1.12;transition:clip-path 1.15s cubic-bezier(.77,0,.18,1),scale 1.7s cubic-bezier(.2,.7,.2,1);transition-delay:var(--retraso,0s)}
+.mov [data-cortina].visible{clip-path:inset(0 0 0 0);scale:1}
+.mov [data-sube]{opacity:0;translate:0 28px;transition:opacity .8s ease,translate .9s cubic-bezier(.2,.7,.2,1);transition-delay:var(--retraso,0s)}
+.mov [data-sube].visible{opacity:1;translate:0 0}
+/* Hover suave en las fotos de las contadoras */
+.portrait,.advisor{overflow:hidden}
+.mov .portrait img.listo,.mov .advisor img.listo{transition:scale .7s cubic-bezier(.2,.7,.2,1)}
+.mov .portrait:hover img.listo,.mov .advisor:hover img.listo{scale:1.04}
+@media (prefers-reduced-motion:reduce){.mov [data-cortina],.mov [data-sube]{clip-path:none;scale:none;opacity:1;translate:none;transition:none}}
+.mov .caso[data-sube]{transition:opacity .8s ease,translate .9s cubic-bezier(.2,.7,.2,1),transform .25s ease,box-shadow .25s ease;transition-delay:var(--retraso,0s),var(--retraso,0s),0s,0s}
